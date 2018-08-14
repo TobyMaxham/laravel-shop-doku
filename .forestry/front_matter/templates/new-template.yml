@@ -1,0 +1,14 @@
+---
+label: New Template
+hide_body: false
+is_partial: false
+fields:
+- type: textarea
+  label: Label
+  name: label
+  description: Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  default: sdsdfs
