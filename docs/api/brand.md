@@ -107,4 +107,9 @@ To retrieve a list of all brands, send a GET request to `{{ $site.themeConfig.cu
 
 
 ## Update Brand
+
+To update a brand, send a PUT request to `{{ $site.themeConfig.currentVersion }}brand/$BRAND_ID`.
+The request should contain a full representation of the Brand including existing attributes. Note that any attributes that are not provided will be reset to their default values.
+If you just want to update a single field, you also can send it via PATCH.
+
 ## Delete Brand
